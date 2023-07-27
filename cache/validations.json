@@ -1,0 +1,463 @@
+{
+  "version": "3.2",
+  "log": [
+    {
+      "Initializable": {
+        "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:57",
+        "inherit": [],
+        "libraries": [
+          "AddressUpgradeable"
+        ],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "_initialized",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint8",
+              "contract": "Initializable",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+              "retypedFrom": "bool"
+            },
+            {
+              "label": "_initializing",
+              "offset": 1,
+              "slot": "0",
+              "type": "t_bool",
+              "contract": "Initializable",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+            }
+          ],
+          "types": {
+            "t_bool": {
+              "label": "bool",
+              "numberOfBytes": "1"
+            },
+            "t_uint8": {
+              "label": "uint8",
+              "numberOfBytes": "1"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        }
+      },
+      "AddressUpgradeable": {
+        "src": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol:9",
+        "version": {
+          "withMetadata": "2a55fb9c1b32105503a34d2a190ef648f49de000ef36db7b06ad5f1fcb3581b6",
+          "withoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff",
+          "linkedWithoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1",
+          "flat": false
+        }
+      },
+      "BoxV2": {
+        "src": "contracts/V2.sol:6",
+        "version": {
+          "withMetadata": "ab408db19018e39b53e059a718c6171c0143809fe98b975b7d3a34d24efb1cfa",
+          "withoutMetadata": "2dfcac5565dcbb440f7ec898040420c339ef639e03b54633b63c381915e7c11c",
+          "linkedWithoutMetadata": "2dfcac5565dcbb440f7ec898040420c339ef639e03b54633b63c381915e7c11c"
+        },
+        "inherit": [
+          "Initializable"
+        ],
+        "libraries": [],
+        "methods": [
+          "initialize(uint256,uint256)",
+          "area()",
+          "perimeter()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "_initialized",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint8",
+              "contract": "Initializable",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+              "retypedFrom": "bool"
+            },
+            {
+              "label": "_initializing",
+              "offset": 1,
+              "slot": "0",
+              "type": "t_bool",
+              "contract": "Initializable",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+            },
+            {
+              "label": "width",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_uint256",
+              "contract": "BoxV2",
+              "src": "contracts/V2.sol:7"
+            },
+            {
+              "label": "length",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "BoxV2",
+              "src": "contracts/V2.sol:8"
+            }
+          ],
+          "types": {
+            "t_bool": {
+              "label": "bool",
+              "numberOfBytes": "1"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            },
+            "t_uint8": {
+              "label": "uint8",
+              "numberOfBytes": "1"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        }
+      }
+    },
+    {
+      "Initializable": {
+        "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:57",
+        "inherit": [],
+        "libraries": [
+          "AddressUpgradeable"
+        ],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "_initialized",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint8",
+              "contract": "Initializable",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+              "retypedFrom": "bool"
+            },
+            {
+              "label": "_initializing",
+              "offset": 1,
+              "slot": "0",
+              "type": "t_bool",
+              "contract": "Initializable",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+            }
+          ],
+          "types": {
+            "t_bool": {
+              "label": "bool",
+              "numberOfBytes": "1"
+            },
+            "t_uint8": {
+              "label": "uint8",
+              "numberOfBytes": "1"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        }
+      },
+      "AddressUpgradeable": {
+        "src": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol:9",
+        "version": {
+          "withMetadata": "2a55fb9c1b32105503a34d2a190ef648f49de000ef36db7b06ad5f1fcb3581b6",
+          "withoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff",
+          "linkedWithoutMetadata": "08d24783a787f8a51dea0c166bb6f91a4f0865e02d03d749f102d332e6ead0ff"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1",
+          "flat": false
+        }
+      },
+      "BoxV1": {
+        "src": "contracts/V1.sol:6",
+        "version": {
+          "withMetadata": "f066b49ec10fb941108d5cc631144f573be7bab466408603206295f56ee82878",
+          "withoutMetadata": "db389b1131c7d0dd712a198471c14c3e271d946d190b90c62209072dbe9c4a79",
+          "linkedWithoutMetadata": "db389b1131c7d0dd712a198471c14c3e271d946d190b90c62209072dbe9c4a79"
+        },
+        "inherit": [
+          "Initializable"
+        ],
+        "libraries": [],
+        "methods": [
+          "initialize(uint256,uint256)",
+          "area()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "_initialized",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint8",
+              "contract": "Initializable",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+              "retypedFrom": "bool"
+            },
+            {
+              "label": "_initializing",
+              "offset": 1,
+              "slot": "0",
+              "type": "t_bool",
+              "contract": "Initializable",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+            },
+            {
+              "label": "width",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_uint256",
+              "contract": "BoxV1",
+              "src": "contracts/V1.sol:9"
+            },
+            {
+              "label": "length",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_uint256",
+              "contract": "BoxV1",
+              "src": "contracts/V1.sol:10"
+            }
+          ],
+          "types": {
+            "t_bool": {
+              "label": "bool",
+              "numberOfBytes": "1"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            },
+            "t_uint8": {
+              "label": "uint8",
+              "numberOfBytes": "1"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        }
+      },
+      "V2": {
+        "src": "contracts/V2.sol:4",
+        "version": {
+          "withMetadata": "c90a793078937a400d2f4b2d246bec2e7c1c261d294a6943e2b73c7051b3ea84",
+          "withoutMetadata": "c98a0e603c1898991c20d390063aec4c683544a7ea7e6f190aff4a0794788dda",
+          "linkedWithoutMetadata": "c98a0e603c1898991c20d390063aec4c683544a7ea7e6f190aff4a0794788dda"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "initialvalue(uint256)",
+          "increase()",
+          "decrease()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "number",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "V2",
+              "src": "contracts/V2.sol:5"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        }
+      }
+    },
+    {
+      "V1": {
+        "src": "contracts/V1.sol:4",
+        "version": {
+          "withMetadata": "bee08205d17d2c3857917d22783da9b867e54f579c5748f91c3843c6c1d53941",
+          "withoutMetadata": "0fd5b6811022bc1e8645ce1aca801f9520d77e652e266b9864956be458f82228",
+          "linkedWithoutMetadata": "0fd5b6811022bc1e8645ce1aca801f9520d77e652e266b9864956be458f82228"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "initialvalue(uint256)",
+          "increase()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "number",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "V1",
+              "src": "contracts/V1.sol:5"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        }
+      },
+      "V2": {
+        "src": "contracts/V2.sol:4",
+        "version": {
+          "withMetadata": "c0c838e31c091ccf0706c3d31d4337240d5b76325fa280b1f5f6b9686e56fe3e",
+          "withoutMetadata": "0c9bb275c6abe2b2def6ae2b5b0d181b6c3874411fe6c87c1aeaa550401a2d5d",
+          "linkedWithoutMetadata": "0c9bb275c6abe2b2def6ae2b5b0d181b6c3874411fe6c87c1aeaa550401a2d5d"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "initialvalue(uint256)",
+          "increase()",
+          "decrease()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "number",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "V2",
+              "src": "contracts/V2.sol:5"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        }
+      }
+    },
+    {
+      "V1": {
+        "src": "contracts/V1.sol:4",
+        "version": {
+          "withMetadata": "f8273d7b689f05416b474f9362147459a925ed6271b82085ebc7fb1e676de588",
+          "withoutMetadata": "0fd5b6811022bc1e8645ce1aca801f9520d77e652e266b9864956be458f82228",
+          "linkedWithoutMetadata": "0fd5b6811022bc1e8645ce1aca801f9520d77e652e266b9864956be458f82228"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "initialvalue(uint256)",
+          "increase()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "number",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "V1",
+              "src": "contracts/V1.sol:5"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        }
+      },
+      "V2": {
+        "src": "contracts/V2.sol:4",
+        "version": {
+          "withMetadata": "ccbc4ddf52327fd7c042528bf21591d48bf6e82ac337eacec5aace235ea4dc2c",
+          "withoutMetadata": "0c9bb275c6abe2b2def6ae2b5b0d181b6c3874411fe6c87c1aeaa550401a2d5d",
+          "linkedWithoutMetadata": "0c9bb275c6abe2b2def6ae2b5b0d181b6c3874411fe6c87c1aeaa550401a2d5d"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "initialvalue(uint256)",
+          "increase()",
+          "decrease()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "number",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "V2",
+              "src": "contracts/V2.sol:5"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        }
+      }
+    }
+  ]
+}
